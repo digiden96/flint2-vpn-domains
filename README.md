@@ -7,7 +7,7 @@
 ## Ссылка на список
 
 ```text
-https://raw.githubusercontent.com/digiden96/flint2-vpn-domains/main/domains.txt
+https://raw.githubusercontent.com/digiden96/flint2-vpn-domains/refs/heads/main/domains.txt
 ```
 
 Добавьте эту ссылку в поле `Subscription URL` или его аналог и выберите режим, при котором через VPN идут только домены из списка.
