@@ -1,0 +1,10 @@
+# Ручные дополнения. Один домен на строку.
+ai.com
+chat.com
+chatgpt.com
+openai.com
+oaistatic.com
+oaiusercontent.com
+production-openaicom-storage.azureedge.net
+sora.com
+
