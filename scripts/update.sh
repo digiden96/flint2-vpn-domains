@@ -18,7 +18,6 @@ curl --fail --silent --show-error --location "$SOURCE_URL" > "$TEMP_FILE"
   awk '
     /^$/ { next }
     /^\./ { next }
-    /^[-a-z0-9]+([.][-a-z0-9]+)+$/ { print }
+    /^[a-z][-a-z0-9]*([.][-a-z0-9]+)+$/ { print }
   ' |
   sort -u > domains.txt
-
