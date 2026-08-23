@@ -1,4 +1,4 @@
-# Ручные дополнения. Один домен на строку.
+# Ручные дополнения. Один домен, IP-адрес или CIDR-подсеть на строку.
 ai.com
 chat.com
 chatgpt.com
@@ -7,4 +7,3 @@ oaistatic.com
 oaiusercontent.com
 production-openaicom-storage.azureedge.net
 sora.com
-

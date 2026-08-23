@@ -24,18 +24,20 @@ https://raw.githubusercontent.com/digiden96/flint2-vpn-domains/refs/heads/main/d
 
 ## Что входит в список
 
-В списке собраны сайты и сервисы, которым может понадобиться подключение через VPN. Основная часть берётся из проекта [itdoginfo/allow-domains](https://github.com/itdoginfo/allow-domains). Дополнительные домены хранятся в файле `custom-domains.txt`.
+В списке собраны сайты и сервисы, которым может понадобиться подключение через VPN. Домены берутся из проекта [itdoginfo/allow-domains](https://github.com/itdoginfo/allow-domains), а сетевые диапазоны Telegram из его [официального списка](https://core.telegram.org/resources/cidr.txt). Дополнительные записи хранятся в файле `custom-domains.txt`.
 
 Готовый файл обновляется автоматически каждый день.
 
 ## Как добавить домен
 
-Откройте `custom-domains.txt` и добавьте домен отдельной строкой:
+Откройте `custom-domains.txt` и добавьте домен, IP-адрес или CIDR-подсеть отдельной строкой:
 
 ```text
 example.com
+203.0.113.10
+203.0.113.0/24
 ```
 
-Указывайте только домен, без `https://`, адреса страницы и `*.`.
+Домены указывайте без `https://`, адреса страницы и `*.`.
 
 Сохраните изменение в ветке `main`, затем запустите обновление через **Actions → Update domain list → Run workflow**. Если не запускать его вручную, изменения попадут в `domains.txt` при следующем ежедневном обновлении.
