@@ -3,12 +3,6 @@ name: Update domain list
 on:
   schedule:
     - cron: "17 3 * * *"
-  push:
-    branches:
-      - main
-    paths:
-      - custom-domains.txt
-      - scripts/update.sh
   workflow_dispatch:
 
 permissions:
