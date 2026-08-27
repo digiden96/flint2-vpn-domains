@@ -7,7 +7,7 @@
 ## Только выбранные сайты через VPN
 
 ```text
-https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains@main/domains.txt
+https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/domains.txt
 ```
 
 Добавьте эту ссылку в поле `Subscription URL` или его аналог и выберите режим, при котором через VPN идут только домены из списка.
@@ -15,7 +15,7 @@ https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains@main/domains.txt
 ## Российские сайты напрямую, остальное через VPN
 
 ```text
-https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains@main/russia-domains.txt
+https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/russia-domains.txt
 ```
 
 Добавьте эту ссылку в поле `Subscription URL` и выберите режим исключения указанных доменов из VPN. Российские сервисы из списка пойдут через обычное подключение, а остальные сайты через VPN.
