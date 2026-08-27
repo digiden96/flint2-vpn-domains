@@ -7,7 +7,7 @@
 ## Только выбранные сайты через VPN
 
 ```text
-https://raw.githubusercontent.com/digiden96/flint2-vpn-domains/refs/heads/main/domains.txt
+https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains@main/domains.txt
 ```
 
 Добавьте эту ссылку в поле `Subscription URL` или его аналог и выберите режим, при котором через VPN идут только домены из списка.
@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/digiden96/flint2-vpn-domains/refs/heads/main/d
 ## Российские сайты напрямую, остальное через VPN
 
 ```text
-https://raw.githubusercontent.com/digiden96/flint2-vpn-domains/refs/heads/main/russia-domains.txt
+https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains@main/russia-domains.txt
 ```
 
 Добавьте эту ссылку в поле `Subscription URL` и выберите режим исключения указанных доменов из VPN. Российские сервисы из списка пойдут через обычное подключение, а остальные сайты через VPN.
@@ -38,7 +38,7 @@ https://raw.githubusercontent.com/digiden96/flint2-vpn-domains/refs/heads/main/r
 
 В `russia-domains.txt` находятся российские сайты и приложения, которые могут не работать с иностранным IP-адресом. Основной источник — [UnRKN/ru-blocklist](https://github.com/UnRKN/ru-blocklist). Дополнительные записи хранятся в `custom-russia-domains.txt`.
 
-Оба готовых файла обновляются автоматически каждый день.
+Оба готовых файла обновляются автоматически каждый день. Ссылки для роутера используют CDN-зеркало, потому что прямой доступ к `raw.githubusercontent.com` может быть ограничен провайдером. CDN обновляет содержимое ветки с возможной задержкой до 12 часов.
 
 ## Как добавить домен
 
