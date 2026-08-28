@@ -2,8 +2,17 @@
 ai.com
 chat.com
 chatgpt.com
+api.github.com
+codeload.github.com
+github.com
+github-releases.githubusercontent.com
+githubassets.com
+githubusercontent.com
+objects.githubusercontent.com
 openai.com
 oaistatic.com
 oaiusercontent.com
 production-openaicom-storage.azureedge.net
+raw.githubusercontent.com
+release-assets.githubusercontent.com
 sora.com

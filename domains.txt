@@ -60,6 +60,7 @@ anthropic.com
 anthropic.qualtrics.com
 any.do
 aol.com
+api.github.com
 api.jetbrains.ai
 api.service-kp.com
 api.theins.info
@@ -168,6 +169,7 @@ cock.li
 code.gist.build
 codeium.com
 codelinaro.org
+codeload.github.com
 coingate.com
 coinpayments.net
 coinsbee.com
@@ -367,6 +369,10 @@ ggpht.com
 ghostrc.game.idtech.services
 gifyu.com
 git.new
+github-releases.githubusercontent.com
+github.com
+githubassets.com
+githubusercontent.com
 glavred.info
 glavred.net
 global.fncstatic.com
@@ -673,6 +679,7 @@ nude-moon.org
 nxp.com
 oaistatic.com
 oaiusercontent.com
+objects.githubusercontent.com
 obozrevatel.com
 ocstore.com
 octopus.do
@@ -783,6 +790,7 @@ r4.err.ee
 radiojar.com
 radiosakharov.org
 radiosvoboda.org
+raw.githubusercontent.com
 rbc.ua
 reactflow.dev
 realbooru.com
@@ -794,6 +802,7 @@ redis.io
 redislabs.com
 redshieldvpn.com
 refactoring.guru
+release-assets.githubusercontent.com
 remna.st
 remove.bg
 render-state.to
