@@ -1,4 +1,18 @@
-# Списки доменов для раздельной маршрутизации
+# Списки для Podkop и zapret2
+
+Репозиторий автоматически разделяет ресурсы между двумя способами обхода:
+
+- `zapret-domains.txt` открывается напрямую через провайдера с обработкой zapret2;
+- `podkop-domains.txt` и `podkop-subnets.txt` направляются через VPN;
+- всё, чего нет в этих списках, идёт напрямую обычным способом.
+
+Список zapret2 формируется из Russia Inside проекта itdoginfo. Из него исключаются категории, которым обычно нужен иностранный IP: GeoBlock, Meta, TikTok и Twitter. Они остаются в списке Podkop. Разделение пересчитывается ежедневно, поэтому один домен не попадает одновременно в оба режима.
+
+Ссылка для zapret2:
+
+```text
+https://raw.githubusercontent.com/digiden96/flint2-vpn-domains/refs/heads/main/zapret-domains.txt
+```
 
 В репозитории находятся два готовых списка. Первый направляет выбранные сайты через VPN. Второй позволяет оставить российские сервисы на прямом подключении, а остальной интернет направить через VPN.
 
@@ -75,7 +89,7 @@ https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/russia-domains.txt
 
 ## Как добавить домен
 
-Для списка VPN откройте `custom-domains.txt`. Для российских сайтов откройте `custom-russia-domains.txt`. Добавьте домен, IP-адрес или CIDR-подсеть отдельной строкой:
+Для принудительного VPN откройте `custom-domains.txt`. Для zapret2 откройте `custom-zapret-domains.txt`. Для российских сайтов откройте `custom-russia-domains.txt`. Добавьте домен, IP-адрес или CIDR-подсеть отдельной строкой:
 
 ```text
 example.com
