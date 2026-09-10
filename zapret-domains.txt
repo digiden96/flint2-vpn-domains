@@ -113,6 +113,7 @@ digitalocean.com
 dis.gd
 discord-activities.com
 discord-attachments-uploads-prd.storage.googleapis.com
+discord.app
 discord.co
 discord.com
 discord.design
@@ -122,14 +123,18 @@ discord.gift
 discord.gifts
 discord.media
 discord.new
+discord.status
 discord.store
 discord.tools
 discordactivities.com
 discordapp.com
 discordapp.net
+discordcdn.com
 discordmerch.com
 discordpartygames.com
 discordsays.com
+discordsez.com
+discordstatus.com
 discours.io
 dorama.live
 doramalive.ru
@@ -530,6 +535,7 @@ spiegel.de
 spreadthesign.com
 sputnikipogrom.com
 squietpc.com
+stable.dl2.discordapp.net
 startmail.com
 startpage.com
 static.lostfilm.top

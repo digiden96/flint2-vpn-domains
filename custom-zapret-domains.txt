@@ -1,2 +1,8 @@
 # Ручные домены для прямого подключения через Ростелеком и обработки zapret2.
 # Один домен на строку, без схемы https:// и без маски *.
+discord.app
+discord.status
+discordcdn.com
+discordsez.com
+discordstatus.com
+stable.dl2.discordapp.net
