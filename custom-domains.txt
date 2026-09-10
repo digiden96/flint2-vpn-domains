@@ -1,5 +1,6 @@
 # Ручные дополнения. Один домен, IP-адрес или CIDR-подсеть на строку.
 ai.com
+api.ipify.org
 chat.com
 chatgpt.com
 api.github.com
@@ -8,6 +9,7 @@ github.com
 github-releases.githubusercontent.com
 githubassets.com
 githubusercontent.com
+ifconfig.me
 objects.githubusercontent.com
 openai.com
 oaistatic.com

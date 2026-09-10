@@ -61,6 +61,7 @@ anthropic.qualtrics.com
 any.do
 aol.com
 api.github.com
+api.ipify.org
 api.jetbrains.ai
 api.service-kp.com
 api.theins.info
@@ -447,6 +448,7 @@ idelreal.org
 iditelesombase.org
 idolcomplex.com
 iedb.org
+ifconfig.me
 ig.me
 ign.com
 iherb.com
