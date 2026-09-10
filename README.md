@@ -56,6 +56,23 @@ https://raw.githubusercontent.com/digiden96/flint2-vpn-domains/refs/heads/main/r
 
 Оба готовых файла обновляются автоматически каждый день. Для роутера рекомендуется CDN-зеркало, потому что прямой доступ к `raw.githubusercontent.com` может быть ограничен провайдером. В ссылке зеркала намеренно не используется `@main`: некоторые версии GL.iNet отклоняют такой адрес с ошибкой `Illegal parameter [-32602]`. CDN обновляет содержимое ветки с возможной задержкой до 12 часов.
 
+## Использование с OpenWrt и Podkop
+
+Podkop принимает домены и IP-подсети в разных полях. Для него автоматически создаются два дополнительных файла:
+
+```text
+https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/podkop-domains.txt
+https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/podkop-subnets.txt
+```
+
+В секции с типом подключения **VPN** выберите нужный VPN-интерфейс. Первую ссылку добавьте в **Remote Domain Lists**, вторую — в **Remote Subnet Lists**.
+
+Чтобы российские ресурсы всегда открывались напрямую, создайте отдельную секцию **Exclusion** и добавьте в **Remote Domain Lists**:
+
+```text
+https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/russia-domains.txt
+```
+
 ## Как добавить домен
 
 Для списка VPN откройте `custom-domains.txt`. Для российских сайтов откройте `custom-russia-domains.txt`. Добавьте домен, IP-адрес или CIDR-подсеть отдельной строкой:

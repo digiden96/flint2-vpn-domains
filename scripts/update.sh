@@ -49,6 +49,26 @@ build_list domains.txt \
   "$TEMP_TELEGRAM" \
   custom-domains.txt
 
+# Podkop expects domain names and IP/CIDR networks in separate URL fields.
+: > podkop-domains.txt
+: > podkop-subnets.txt
+awk -v domains="podkop-domains.txt" -v subnets="podkop-subnets.txt" '
+function is_ipv4_cidr(value, sections, octets, count, i) {
+  count = split(value, sections, "/")
+  if (count > 2) return 0
+  if (count == 2 && (sections[2] !~ /^[0-9]+$/ || sections[2] > 32)) return 0
+
+  count = split(sections[1], octets, ".")
+  if (count != 4) return 0
+  for (i = 1; i <= 4; i++) {
+    if (octets[i] !~ /^[0-9]+$/ || octets[i] > 255) return 0
+  }
+  return 1
+}
+is_ipv4_cidr($0) { print > subnets; next }
+{ print > domains }
+' domains.txt
+
 build_list russia-domains.txt \
   "$TEMP_RUSSIA_DOMAINS" \
   custom-russia-domains.txt
