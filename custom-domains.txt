@@ -17,4 +17,5 @@ oaiusercontent.com
 production-openaicom-storage.azureedge.net
 raw.githubusercontent.com
 release-assets.githubusercontent.com
+rutracker.org
 sora.com
