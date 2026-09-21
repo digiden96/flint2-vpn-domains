@@ -112,7 +112,6 @@ digikey.com
 digitalocean.com
 dis.gd
 discord-activities.com
-discord-attachments-uploads-prd.storage.googleapis.com
 discord.app
 discord.co
 discord.com
@@ -201,7 +200,6 @@ gamesrepack.com
 gelbooru.com
 germania.one
 getoutline.org
-ggpht.com
 gifyu.com
 git.new
 glavred.info
@@ -211,7 +209,6 @@ gofile.io
 golosameriki.com
 gonitro.com
 goodreads.com
-googlevideo.com
 gr-assets.com
 grani.ru
 graty.me
@@ -257,7 +254,6 @@ is.fi
 istories.media
 itch.io
 itsmycity.ru
-jnn-pa.googleapis.com
 jskor.ill.in.ua
 jut-su.net
 jut.su
@@ -441,7 +437,6 @@ rentry.co
 rentry.org
 republic.ru
 restream.io
-returnyoutubedislikeapi.com
 rezka-ua.in
 rezka.ag
 rezka.cc
@@ -615,7 +610,6 @@ vpnpay.io
 webmd.com
 webtoons.com
 welt.de
-wide-youtube.l.google.com
 wiki.fextralife.com
 wilsoncenter.org
 windows10spotlight.com
@@ -634,18 +628,7 @@ xvideos-cdn.com
 xvideos.com
 yande.re
 yle.fi
-youtu.be
-youtube-nocookie.com
-youtube-ui.l.google.com
-youtube.com
-youtubeembeddedplayer.googleapis.com
-youtubei.googleapis.com
-youtubekids.com
-yt-video-upload.l.google.com
 yt.be
-yt3.googleusercontent.com
-ytimg.com
-ytimg.l.google.com
 yting.com
 yummyani.me
 zahav.ru
