@@ -429,6 +429,7 @@ suggestqueries.google.com
 supercell.com
 support.anydesk.com
 support.xerox.com
+xerox.com
 surveymonkey.com
 swagger.io
 swapd.co

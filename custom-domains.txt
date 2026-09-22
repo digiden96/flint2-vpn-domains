@@ -57,6 +57,7 @@ rutracker.org
 sora.com
 steampowered.com
 waze.com
+xerox.com
 youtu.be
 youtube-nocookie.com
 youtube.com
