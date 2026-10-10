@@ -97,3 +97,5 @@ build_list domains.txt podkop-domains.txt podkop-subnets.txt
 build_list russia-domains.txt \
   "$TEMP_RUSSIA_DOMAINS" \
   custom-russia-domains.txt
+
+python3 scripts/generate-happ.py
