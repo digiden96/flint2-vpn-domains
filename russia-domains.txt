@@ -81,6 +81,7 @@ gismeteo.ru
 globaloet.ru
 glutec.ru
 gnezdo.ru
+goldapple.ru
 gosniias.ru
 gosuslugi.org
 gosuslugi.ru
@@ -91,6 +92,7 @@ grandexpress.ru
 hbrd.io
 hematonix.ru
 hh.ru
+hoff.ru
 hr-link.ru
 hrtek.ru
 hybrid.ru
@@ -121,8 +123,10 @@ kontur.ru
 kp.ru
 kuper.ru
 lamoda.ru
+lemanapro.ru
 lenta.com
 lenta.ru
+letu.ru
 libreview.ru
 life.ru
 litres.ru
@@ -172,6 +176,7 @@ mts.ua
 mtsbank.ru
 mtsdengi.ru
 mvd.ru
+mvideo.ru
 mvk.com
 mwscdn.ru
 my.com
@@ -198,6 +203,7 @@ oktech.ru
 oneme.ru
 onetarget.ru
 onf.ru
+onlinetrade.ru
 otclick-adv.ru
 otkritie.ru
 oz.by
@@ -224,6 +230,7 @@ ozonru.eu
 ozonsport.ru
 ozonstatus.ru
 perekrestok.ru
+petrovich.ru
 pfr.gov.ru
 pnp.ru
 pobeda.aero
@@ -378,6 +385,7 @@ vkusnoitochka.ru
 vkusvill.ru
 vkvideo.ru
 vmeste-rf.tv
+vseinstrumenti.ru
 vtb-leasing.ru
 vtb.ru
 vtb24.ru

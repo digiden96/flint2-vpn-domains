@@ -1,2 +1,24 @@
 # Ручные дополнения к списку российских ресурсов.
 # Один домен, IP-адрес или CIDR-подсеть на строку.
+
+# Магазины и маркетплейсы: напрямую, включая поддомены.
+aliexpress.ru
+citilink.ru
+detmir.ru
+dns-shop.ru
+eldorado.ru
+goldapple.ru
+hoff.ru
+lamoda.ru
+lemanapro.ru
+letu.ru
+megamarket.ru
+mvideo.ru
+onlinetrade.ru
+ozon.ru
+petrovich.ru
+sportmaster.ru
+vseinstrumenti.ru
+wb.ru
+wildberries.ru
+yandex.ru
