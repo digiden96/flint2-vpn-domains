@@ -100,19 +100,13 @@ https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/podkop-subnets.txt
 
 В секции с типом подключения **VPN** выберите нужный VPN-интерфейс. Первую ссылку добавьте в **Remote Domain Lists**, вторую — в **Remote Subnet Lists**.
 
-Чтобы российские ресурсы всегда открывались напрямую, создайте отдельную секцию **Exclusion** и добавьте в **Remote Domain Lists**:
+Чтобы российские ресурсы и домены, которые обрабатывает zapret2, всегда открывались напрямую, создайте отдельную секцию **Exclusion** и добавьте в **Remote Domain Lists**:
 
 ```text
-https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/russia-domains.txt
+https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/podkop-exclusion-domains.txt
 ```
 
-Чтобы домены, которые обрабатывает zapret2, не расходовались через прокси, добавьте в ту же секцию **Exclusion** вторую ссылку:
-
-```text
-https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/zapret-domains.txt
-```
-
-В результате список `zapret-domains.txt` будет идти напрямую через провайдера, а zapret2 сможет обрабатывать его на роутере. Домены из `custom-domains.txt` в этот список не попадают и продолжают идти через VPN.
+В этот файл объединяются `russia-domains.txt` и `zapret-domains.txt`. Домены из `custom-domains.txt` в `zapret-domains.txt` не попадают и продолжают идти через VPN.
 
 ## Как добавить домен
 

@@ -98,4 +98,7 @@ build_list russia-domains.txt \
   "$TEMP_RUSSIA_DOMAINS" \
   custom-russia-domains.txt
 
+# Combined direct list for Podkop exclusion sections.
+build_list podkop-exclusion-domains.txt russia-domains.txt zapret-domains.txt
+
 python3 scripts/generate-happ.py
