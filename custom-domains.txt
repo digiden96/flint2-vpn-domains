@@ -21,6 +21,10 @@ github-releases.githubusercontent.com
 githubassets.com
 githubusercontent.com
 google.com
+gemini.google.com
+ai.google.dev
+aistudio.google.com
+makersuite.google.com
 googleadservices.com
 googleapis.com
 googleblog.com
