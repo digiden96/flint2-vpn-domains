@@ -187,6 +187,7 @@ gemini.google.com
 makersuite.google.com
 googleadservices.com
 googleapis.com
+generativelanguage.googleapis.com
 googleblog.com
 googlecommerce.com
 googledrive.com
