@@ -49,6 +49,7 @@ gvt7.com
 gvt8.com
 gvt9.com
 ifconfig.me
+nirui.org
 objects.githubusercontent.com
 openai.com
 oaistatic.com
