@@ -106,6 +106,14 @@ https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/podkop-subnets.txt
 https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/russia-domains.txt
 ```
 
+Чтобы домены, которые обрабатывает zapret2, не расходовались через прокси, добавьте в ту же секцию **Exclusion** вторую ссылку:
+
+```text
+https://cdn.jsdelivr.net/gh/digiden96/flint2-vpn-domains/zapret-domains.txt
+```
+
+В результате список `zapret-domains.txt` будет идти напрямую через провайдера, а zapret2 сможет обрабатывать его на роутере. Домены из `custom-domains.txt` в этот список не попадают и продолжают идти через VPN.
+
 ## Как добавить домен
 
 Для принудительного VPN откройте `custom-domains.txt`. Для zapret2 откройте `custom-zapret-domains.txt`. Для российских сайтов откройте `custom-russia-domains.txt`. Добавьте домен, IP-адрес или CIDR-подсеть отдельной строкой:
