@@ -8,7 +8,9 @@ ads-twitter.com
 affinity.studio
 ai-chat.bsg.brave.com
 ai.com
+ai.google.dev
 aircanada.com
+aistudio.google.com
 akc.org
 all3dp.com
 alphacoders.com
@@ -164,6 +166,8 @@ g2a.com
 gamestop.com
 gaming.amazon.com
 geforcenow.com
+gemini.google.com
+generativelanguage.googleapis.com
 genspark.ai
 geolocation.onetrust.com
 getoutline.com
@@ -181,13 +185,8 @@ gofund.me
 gofundme.com
 gonift.com
 google.com
-ai.google.dev
-aistudio.google.com
-gemini.google.com
-makersuite.google.com
 googleadservices.com
 googleapis.com
-generativelanguage.googleapis.com
 googleblog.com
 googlecommerce.com
 googledrive.com
@@ -284,6 +283,7 @@ lookerstudio.google.com
 lyst.com
 mailerlite.com
 mailinator.com
+makersuite.google.com
 manus.im
 manybooks.net
 marvelsnap.com
