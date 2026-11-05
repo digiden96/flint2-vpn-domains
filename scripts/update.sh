@@ -100,21 +100,5 @@ build_list russia-domains.txt \
 
 # Combined direct list for Podkop exclusion sections.
 build_list podkop-exclusion-domains.txt russia-domains.txt zapret-domains.txt
-# Explicit direct-list exclusions also remove subdomains from upstream sources.
-build_list "$TEMP_NORMALIZED_FORCE" force-vpn-exclusions.txt
-awk '
-NR == FNR { forced[$0] = 1; next }
-{
-  probe = $0
-  while (probe != "") {
-    if (probe in forced) next
-    dot = index(probe, ".")
-    if (!dot) break
-    probe = substr(probe, dot + 1)
-  }
-  print
-}
-' "$TEMP_NORMALIZED_FORCE" podkop-exclusion-domains.txt > "$TEMP_ALL_DOMAINS"
-mv "$TEMP_ALL_DOMAINS" podkop-exclusion-domains.txt
 
 python3 scripts/generate-happ.py

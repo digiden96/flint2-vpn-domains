@@ -1,18 +1,4 @@
 # Ручные дополнения. Один домен, IP-адрес или CIDR-подсеть на строку.
-phncdn.com
-phncdn.com.sds.rncdn7.com
-pornhub.com
-pornhub.org
-xhamster.com
-xhamsterlive.com
-xnxx-cdn.com
-xnxx-ru.com
-xnxx.com
-xnxx.net
-xnxx.tv
-xnxx3.com
-xvideos-cdn.com
-xvideos.com
 1e100.net
 ai.com
 android.com
